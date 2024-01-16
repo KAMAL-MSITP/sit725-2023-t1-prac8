@@ -1,0 +1,6 @@
+docker build -t kamalsqa2007/Week-8:1.1.1 .
+docker run -p 5050:3000 kamalsqa2007/week-8:1.1.1
+docker ps
+docker exec -it <ImageId> /bin/bash
+docker push kamalsqa2007/week-8:1.1.1
+docker rmi kamalsqa2007/week-8:1.1.1
